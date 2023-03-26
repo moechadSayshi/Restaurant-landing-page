@@ -1,0 +1,112 @@
+
+body{
+    background-color: #edefee;
+    margin: 3rem 5%;
+    font-family: 'Markazi Text', serif;
+    
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+
+.logo{
+    height: 20vh;
+    text-align: center;
+}
+
+   nav ul {
+    font-size: 2rem;
+        list-style: none;
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+        border-radius: 30px;
+      }
+      
+   nav  li {
+        
+        display: inline-block;
+      }
+      
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+    nav li a:hover {
+        background-color: #111;
+      }
+section{
+  display: flex;
+  gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.bbq{
+  border-radius: 15px;
+}
+
+article{
+  flex: 1;
+  border-radius: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.logo-foot{
+  height: 15vh;
+  margin-left: 10px;
+}
+
+footer{
+  display: flex;
+ padding-top: 5px;
+}
+footer div{
+margin-right: 10px;
+  flex: 1;
+}
+
+#hero {
+  background-image: url("Asset 21.png");
+  background-size: cover;
+  background-position: center;
+  color: #495E57;
+  text-shadow: 2px 2px 8px #FFF9B0;
+  text-align: right;
+}
+
+#hero h1 {
+  margin-right: 2rem;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+#hero p {
+  max-width: 100%;
+  margin-left: 16rem;
+  margin-right: 2rem;
+}
+article img {
+  max-width: 100%;
+}
+article ul {
+  list-style: none;
+  font-size: 1.3rem;
+}
+main article {
+  background-color: #fbdabb79;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.align{
+  margin: 0;
+  text-align: end; 
+}
